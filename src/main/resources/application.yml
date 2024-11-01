@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: product
+  main:
+    banner-mode: off
+  datasource:
+    url: jdbc:mysql://localhost:3306/etec
+    username: root
+    password: 123456
+  # security:
+  #     user:
+  #       name: ebon
+  #       password: 123
+
+server:
+  port: 8080
+
+JWT_KEY: xdM65M4ATWWPVS3w+0JsW4HbOgXIkhZ97IRwY6Ya1Es=
